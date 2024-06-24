@@ -1,0 +1,112 @@
+{
+    "dir": "ltr",
+    "lang": "fr",
+    "name": "mhun | creative développeur freelance Bergerac",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "https://www.mh1.fr/",
+    "short_name": "mhun",
+    "theme_color": "#FFFFFF",
+    "description": "Stratégie de communication à Bergerac en freelance. Communication Print & Web en accord avec vos besoins, vos objectifs et votre budget.",
+    "orientation": "any",
+    "background_color": "#FFFFFF",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "./images/d0c415b3-1435-0cd5-3917-09af3422d49c.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/d09f204c-bfe0-3b23-cb92-28d34bcece63.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/b082c765-2562-8dc7-5406-596f7dd527a2.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/00efcd3a-5916-263b-f3fd-55e125b2bbe9.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/299c4c0f-4a11-e8d8-d9cb-08012b8b0812.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/0072dd21-c402-3111-6eeb-ce4478c1039d.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/29e41363-5e60-9fce-8c39-edee7a8d9510.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/ba2ea62b-678b-1f26-84f6-888da9036165.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/c0ce242b-5d0a-3590-cb1b-8880a0b64234.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/56274bcb-187d-f823-3312-bd61f1cbf3ab.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/39828ad9-16cf-59ff-ac03-37388da270d1.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/93c436eb-832c-1ade-3333-4e3acf5d0fbc.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/e10312f7-bcfc-f388-9d48-15e7c95c1a06.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/64f0c226-17db-93ae-1a4c-c124455c8e3e.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/40f68c76-4330-3b38-7dda-2462b4f6a345.webPlatform.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/17625ef6-01d9-7370-58ea-ba9d2125d53c.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/4557a440-4fec-dcc4-2b47-8624eb3184ba.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/ca9126a7-7d68-2aaa-4387-ee9c3266b94e.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/cebdfdd1-cdd8-4cdd-38a9-5dc33ef086ed.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ]
+}

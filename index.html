@@ -1,7 +1,884 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>mhun | creative développeur</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <meta
+      name="description"
+      content="Stratégie de communication freelance à Bergerac. Communication Print & Web en accord avec vos besoins, vos objectifs et votre budget." />
+    <meta name="author" content="HERVE Mathieu" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="google-site-verification"
+      content="rAJ8UazS9jM1HMjcR1rFQKbSOERBxPKsbissln7vm-o" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="css/normalize-min.css" />
+    <link rel="stylesheet" href="css/animate-min.css" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="js/vendor/modernizr.custom.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        if (navigator.serviceWorker.controller) {
+          console.log(
+            '[PWA mhun] active service worker found, no need to register'
+          )
+        } else {
+          navigator.serviceWorker
+            .register('pwabuilder-sw.js', {
+              scope: './',
+            })
+            .then(function (reg) {
+              console.log(
+                'Service worker has been registered for scope:' + reg.scope
+              )
+            })
+        }
+      } else {
+        console.log('Service workers are not supported.')
+      }
+    </script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="menu">
+        <nav class="navigation" id="nav">
+          <ul>
+            <li><a href="#section0" aria-label="mhun">mhun</a></li>
+            <li><a href="#section1" aria-label="hello">bonjour</a></li>
+            <li><a href="#section2" aria-label="work">portfolio</a></li>
+            <li><a href="#section3" aria-label="contact">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="section intro" id="section0">
+        <div class="container">
+          <div class="content">
+            <h1 class="animated fadeIn delay-1s">
+              hello,<br /><span>my name is Mathieu H.</span>
+            </h1>
+            <p class="animated fadeIn delay-2s">
+              Stratégie de communication à Bergerac,<br />
+              Freelance / UI/UX Designer / FullStack Developer.<br />
+              <a href="#section1" aria-label="ancre vers la section hello"
+                >...</a
+              >
+            </p>
+          </div>
+          <div class="blob"></div>
+        </div>
+        <a
+          href="#section1"
+          class="pixel"
+          aria-label="pixel ancre vers la section work"
+          >&nbsp;</a
+        >
+        <a
+          href="#section1"
+          class="line"
+          aria-label="ligne ancre vers la section work"
+          >&nbsp;</a
+        >
+      </section>
+      <section class="section hello" id="section1">
+        <div class="animated fadeIn">
+          <div class="container">
+            <div class="content">
+              <div class="about">
+                <h2 class="animated fadeIn delay-1s">
+                  Bonjour,<br /><span>mon nom est Mathieu H.</span>
+                </h2>
+                <div class="animated fadeIn delay-2s">
+                  <p>
+                    Mon travail est ma passion. Je réalise votre communication
+                    en accord avec vos besoins, vos objectifs et votre budget.
+                  </p>
+                  <p>
+                    Je parle Adobe CC, HTML, css et JavaScript. J'utilise logiciels, frameworks et
+                    CMS, pour créer des interfaces esthétiques, réactives et performantes.
+                  </p>
+                  <p>
+                    Contactez-moi et rencontrons-nous pour discuter de votre
+                    projet et définir ensemble votre stratégie de communication.
+                  </p>
+                  <p>
+                    <a href="#section2" aria-label="ancre vers la section work"
+                      >...</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+            href="#section2"
+            class="pixel"
+            aria-label="pixel ancre vers la section work"
+            >&nbsp;</a
+          >
+          <a
+            href="#section2"
+            class="line"
+            aria-label="ligne ancre vers la section work"
+            >&nbsp;</a
+          >
+      </section>
+      <section class="section work" id="section2">
+        <div class="animated fadeIn delay-1s">
+          <div class="grid">
+            <div class="card client_digimium">
+              <picture class="hero">
+                <source
+                  srcset="img/digimium-hero.webp"
+                  type="image/webp"
+                  alt="image Digimium" />
+                <img
+                  src="img/digimium-hero.png"
+                  alt="image Digimium"
+                  aria-label="Image du client"
+                  loading="lazy" />
+              </picture>
+              <div class="content">
+                <!-- <picture class="logo">
+                  <source
+                    srcset="img/digimium.webp"
+                    type="image/webp"
+                    alt="logo Digimium" />
+                  <img
+                    src="img/digimium.svg"
+                    alt="logo Digimium"
+                    aria-label="Logo du client"
+                    loading="lazy"
+                    />
+                </picture> -->
+                <div class="text">
+                  <a
+                    href="https://www.digimium.com"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Nom du client">
+                    <h3>Digimium</h3>
+                  </a>
+                  <p>
+                    Opérateur VoIP Cisco Webex #1 en France : connecté nativement
+                    sur la plateforme Cisco Webex (CCP). Pionnier de la VoIP en
+                    Cloud.
+                  </p>
+                    Élaboration d’une identité visuelle et d’une charte graphique, modernisation et professionnalisation de l’image de marque, renforcement de la cohérence graphique de la communication, en adéquation avec la cible et les valeurs de l’entreprise.
+                  <p>
+                    L’objectif était de combiner la performance et l’esthétisme des interfaces, la qualité du code et l'optimisation du
+                    référencement.
+                  </p>
+                </div>
+                <footer>
+                  <a
+                    class="link"
+                    href="https://www.digimium.com"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Site web client"
+                    >https://www.digimium.com</a
+                  >
+                  <small>PHP / Wordpress / Woocommerce</small></footer>
+              </div>
+            </div>
+            <div class="card client_paritel">
+              <picture class="hero">
+                <source
+                  srcset="img/paritel-hero.webp"
+                  type="image/webp"
+                  alt="image paritel" />
+                <img
+                  src="img/paritel-hero.png"
+                  alt="image paritel"
+                  aria-label="Image du client"
+                  loading="lazy" />
+              </picture>
+              <div class="content">
+                <!-- <picture class="logo">
+                  <source
+                    srcset="img/paritel.webp"
+                    type="image/webp"
+                    alt="logo Paritel" />
+                  <img
+                    src="img/paritel.png"
+                    alt="logo Paritel"
+                    aria-label="Logo du client"
+                    loading="lazy" />
+                </picture> -->
+                <div class="text">
+                  <a
+                    href="https://www.paritel.fr"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Nom du client">
+                    <h3>Paritel</h3>
+                  </a>
+                  <p>
+                    Paritel, Opérateur Télécom de proximité pour TPE / PME, est
+                    expert en solutions de télécommunications pour
+                    entreprises&nbsp;: Téléphonie Fixe, Internet et Mobile.
+                  </p>
+                  <p>
+                    Nous collaborons depuis 2012 avec le groupe afin de créer des
+                    systèmes et stratégies de communication.
+                    En 2023 collaboration avec l'agence <a href="https://yzydigital.com" target="_blank">YZYdigital</a> en tant que Frontend Lead,
+                    accompagnant les équipes de design et formant deux développeurs juniors pour assurer les meilleures pratiques de développement.
+                  </p>
+                  <p>
+                    L'accent est mis sur la performance et l'accessibilité des
+                    interfaces, la qualité du code et l'optimisation du
+                    référencement.
+                  </p>
+                </div>
+                <footer>
+                  <a
+                    class="link"
+                    href="https://www.paritel.fr"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Site web client"
+                    >https://www.paritel.fr</a
+                  >
+                  <small>JS / React / GatsbyJs / Strapi, css / Sass, Git</small></footer>
+              </div>
+            </div>
+            <div class="card client_repairs_aidants">
+              <picture class="hero">
+                <source
+                  srcset="img/repairsaidants-hero.webp"
+                  type="image/webp"
+                  alt="image repairsaidants" />
+                <img
+                  src="img/repairsaidants-hero.png"
+                  alt="image repairsaidants"
+                  aria-label="Image du client"
+                  loading="lazy" />
+              </picture>
+              <div class="content">
+                <!-- <picture class="logo">
+                  <img
+                    src="img/repairsaidants.svg"
+                    alt="logo RePairs Aidants"
+                    aria-label="Logo du client"
+                    loading="lazy" />
+                </picture> -->
+                <div class="text">
+                  <a
+                    href="https://www.repairsaidants.com"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Nom du client">
+                    <h3>RePairs Aidants</h3>
+                  </a>
+                  <p>
+                    RePairs Aidants est une action de sensibilisation-formation
+                    à destination de ceux qui apportent de l'aide à un proche en situation de handicap.
+                  </p>
+                  <p>
+                    Collaboration avec l’agence <a href="https://yzydigital.com" target="_blank">YZYdigital</a> en tant que Frontend Lead et responsable de l’accessibilité,
+                    assurant la mise en œuvre des meilleures pratiques de développement et de design
+                    pour offrir une expérience utilisateur optimale et conforme aux normes d’accessibilité AAA.</p>
+                </div>
+                <footer>
+                  <a
+                    class="link"
+                    href="https://www.repairsaidants.com"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Site web client"
+                    >https://www.repairsaidants.com</a
+                  >
+                  <small>JS / React / GatsbyJs / Strapi, css / Sass, Git</small></footer>
+              </div>
+            </div>
+            <div class="card client_fueve_swimwear">
+              <picture class="hero">
+                <source
+                  srcset="img/fueve-hero.webp"
+                  type="image/webp"
+                  alt="image fueve" />
+                <img
+                  src="img/fueve-hero.png"
+                  alt="image fueve"
+                  aria-label="Image du client"
+                  loading="lazy" />
+              </picture>
+              <div class="content">
+                <!-- <picture class="logo">
+                  <source
+                    srcset="img/fueve.webp"
+                    type="image/webp"
+                    alt="logo Fueve Swimwear" />
+                  <img
+                    src="img/fueve.svg"
+                    alt="logo Fueve Swimwear"
+                    aria-label="Logo du client"
+                    loading="lazy" /> 
+                </picture> -->
+                <div class="text">
+                  <a
+                    href="https://www.fueveswimwear.com"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Nom du client">
+                    <h3>Fueve swimwear</h3>
+                  </a>
+                  <p>
+                    Fueve est la marque française de maillots de bain éco-responsables alliant style et durabilité.
+                    Chaque pièce est conçue à partir de matériaux recyclés pour offrir un confort optimal et un design raffiné.
+                  </p>
+                  <p>
+                    Création d'un site e-commerce avec Shopify de maillots éthique et éco-responsables. Développement de modules spécifiques.
+                  </p>
+                </div>
+                <footer>
+                  <a
+                    class="link"
+                    href="https://www.fueveswimwear.com"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Site web client"
+                    >https://www.fueveswimwear.com</a
+                  >
+                  <small>Shopify, css</small></footer>
+              </div>
+            </div>
+            <div class="card client_kalian">
+              <picture class="hero">
+                <source
+                  srcset="img/kalian-hero.webp"
+                  type="image/webp"
+                  alt="image kalian" />
+                <img
+                  src="img/kalian-hero.png"
+                  alt="image kalian"
+                  aria-label="Image du client"
+                  loading="lazy" />
+              </picture>
+              <div class="content">
+                <!-- <picture class="logo">
+                  <source
+                    srcset="img/kalian.webp"
+                    type="image/webp"
+                    alt="logo Kalian" />
+                  <img
+                    src="img/kalian.png"
+                    alt="logo Kalian"
+                    aria-label="Logo du client"
+                    loading="lazy" />
+                </picture> -->
+                <div class="text">
+                  <a
+                    href="https://chateaukalian.com"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Nom du client">
+                    <h3>Kalian</h3>
+                  </a>
+                  <p>
+                    KALIAN est une propriété familiale située en Dordogne sur la
+                    commune de Monbazillac. Certifiée en Agriculture Biologique,
+                    ils produisent des vins liquoreux de l’AOP Monbazillac et des
+                    vins blancs secs, rosés et rouges de l’AOP Bergerac.
+                  </p>
+                  <p>
+                    Création d'une identité visuelle moderne et professionnelle,
+                    en adéquation avec la cible et les valeurs de l'entreprise.
+                  </p>
+                  <p>
+                    Création d'un site vitrine et e-commerce pour la vente de vins
+                    en ligne. Développement de modules spécifiques.
+                  </p>
+                </div>
+                <footer>
+                  <a
+                    class="link"
+                    href="https://chateaukalian.com/"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Site web client"
+                    >https://chateaukalian.com</a
+                  >
+                  <small>PHP / Wordpress / Woocommerce, css / Sass</small></footer>
+              </div>
+            </div>
+            <div class="card client_bayle">
+              <picture class="hero">
+                <source
+                  srcset="img/abayle-hero.webp"
+                  type="image/webp"
+                  alt="image abayle" />
+                <img
+                  src="img/abayle-hero.png"
+                  alt="image abayle"
+                  aria-label="Image du client"
+                  loading="lazy" />
+              </picture>
+              <div class="content">
+                <!-- <picture class="logo">
+                  <source
+                    srcset="img/abayle.webp"
+                    type="image/webp"
+                    alt="logo A.Bayle" />
+                  <img
+                    src="img/abayle.svg"
+                    alt="logo A.Bayle"
+                    aria-label="Logo du client"
+                    loading="lazy" />
+                </picture> -->
+                <div class="text">
+                  <a
+                    href="https://arnaudbayle.fr"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Nom du client">
+                    <h3>A.Bayle</h3>
+                  </a>
+                  <p>
+                    Maître Arnaud Bayle pratique le droit pénal ainsi que certains
+                    domaines du droit civil.
+                  </p>
+                  <p>
+                    Création d'un site vitrine pour présenter les services de
+                    Maître Bayle. Développement d'un module de presse.
+                  </p>
+                </div>
+                <footer>
+                  <a
+                    class="link"
+                    href="https://arnaudbayle.fr"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Site web client"
+                    >https://arnaudbayle.fr</a
+                  >
+                  <small>Brizy, Vercel, Github</small></footer>
+              </div>
+            </div>
+            <div class="card client_nussbicker">
+              <picture class="hero">
+                <source
+                  srcset="img/nussbicker-hero.webp"
+                  type="image/webp"
+                  alt="image nussbicker" />
+                <img
+                  src="img/nussbicker-hero.png"
+                  alt="image nussbicker"
+                  aria-label="Image du client"
+                  loading="lazy" />
+              </picture>
+              <div class="content">
+                <!-- <picture class="logo">
+                  <source
+                    srcset="img/nussbicker.webp"
+                    type="image/webp"
+                    alt="logo E.Nussbicker" />
+                  <img
+                    src="img/nussbicker.png"
+                    alt="logo E.Nussbicker"
+                    aria-label="Logo du client"
+                    loading="lazy" />
+                </picture> -->
+                <div class="text">
+                  <a
+                    href="https://www.eriknussbicker.com"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Nom du client">
+                    <h3>É.Nussbicker</h3>
+                  </a>
+                  <p>
+                    Érik Nussbicker est un plasticien, performeur et scénographe
+                    français. Son œuvre déploie une arborescence de réflexions
+                    sous forme d’installations organiques, sonores, éphémères,
+                    monumentales ou rituelles.
+                  </p>
+                  <p>
+                    Création d'un site vitrine pour présenter les œuvres de
+                    l'artiste. Développement d'un module de portfolio.
+                  </p>
+                </div>
+                <footer>
+                  <a
+                    class="link"
+                    href="https://www.eriknussbicker.com"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Site web client"
+                    >https://www.eriknussbicker.com</a
+                  >
+                  <small>Brizy, Vercel, Github</small></footer>
+              </div>
+            </div>
+            <div class="card client_xp_fibre">
+              <picture class="hero">
+                <source
+                  srcset="img/xpfibre-hero.webp"
+                  type="image/webp"
+                  alt="image xpfibre" />
+                <img
+                  src="img/xpfibre-hero.png"
+                  alt="image xpfibre"
+                  aria-label="Image du client"
+                  loading="lazy" />
+              </picture>
+              <div class="content">
+                <!-- <picture class="logo">
+                  <source
+                    srcset="img/xpfibre.webp"
+                    type="image/webp"
+                    alt="logo xpfibre" />
+                  <img
+                    src="img/xpfibre.png"
+                    alt="logo xpfibre"
+                    aria-label="Logo du client"
+                    loading="lazy" />
+                </picture> -->
+                <div class="text">
+                  <a
+                    href="https://xpfibre.com/"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Nom du client">
+                    <h3>XP Fibre</h3>
+                  </a>
+                  <p>
+                    XpFibre, 1er opérateur d'infrastructures indépendant de France, déploie, commercialise et assure la maintenance de son réseau de fibre optique.
+                    Filiale d'Altice France, groupe issu du rapprochement de SFR et de Numericable.
+                  </p>
+                  <p>
+                    Création d'un site vitrine pour présenter les services de
+                    XpFibre. Développement de modules spécifiques.
+                    Blog, formulaires multi étapes, connexion avec les API de l'entreprise et de data.gouv.
+                  </p>
+                </div>
+                <footer>
+                  <a
+                    class="link"
+                    href="https://xpfibre.com/"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Site web client"
+                    >https://xpfibre.com/</a
+                  >
+                  <small>PHP / Laravel, Brizy, css, Sass, Git</small></footer>
+              </div>
+            </div>
+            <div class="card client_casamex">
+              <picture class="hero">
+                <source
+                  srcset="img/casamex-hero.webp"
+                  type="image/webp"
+                  alt="image casamex" />
+                <img
+                  src="img/casamex-hero.png"
+                  alt="image casamex"
+                  aria-label="Image du client"
+                  loading="lazy" />
+              </picture>
+              <div class="content">
+                <!-- <picture class="logo">
+                  <source
+                    srcset="img/casamex.webp"
+                    type="image/webp"
+                    alt="logo Casamex" />
+                  <img
+                    src="img/casamex.png"
+                    alt="logo Casamex"
+                    aria-label="Logo du client"
+                    loading="lazy" />
+                </picture> -->
+                <div class="text">
+                  <a
+                    href="https://www.casamex.fr"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Nom du client">
+                    <h3>Casamex</h3>
+                  </a>
+                  <p>
+                    Casamex, épicerie mexicaine en ligne, profitez d'un large
+                    choix de produits venus tout droit du Mexique.
+                  </p>
+                  <p>
+                    Migration technique de Magento 1 vers Magento 2. Création d'un
+                    thème graphique et développement de modules spécifiques.
+                    Création d'un blog de recettes mexicaines avec Wordpress.
+                  </p>
+                </div>
+                <footer>
+                  <a
+                    class="link"
+                    href="https://www.casamex.fr"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Site web client"
+                    >https://www.casamex.fr</a
+                  >
+                  <small>PHP / Magento2 / Wordpress, css / Sass</small></footer>
+              </div>
+            </div>
+            <div class="card client_maxicoffee">
+              <picture class="hero">
+                <source
+                  srcset="img/maxicoffee-hero.webp"
+                  type="image/webp"
+                  alt="image maxicoffee" />
+                <img
+                  src="img/maxicoffee-hero.png"
+                  alt="image maxicoffee"
+                  aria-label="Image du client"
+                  loading="lazy" />
+              </picture>
+              <div class="content">
+                <!-- <picture class="logo">
+                  <source
+                    srcset="img/maxicoffee.webp"
+                    type="image/webp"
+                    alt="logo Maxicoffee" />
+                  <img
+                    src="img/maxicoffee.png"
+                    alt="logo Maxicoffee"
+                    aria-label="Logo du client"
+                    loading="lazy" />
+                </picture> -->
+                <div class="text">
+                  <a
+                    href="https://www.maxicoffee.com"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Nom du client">
+                    <h3>Maxicoffee</h3>
+                  </a>
+                  <p>
+                    Créé en 2007 sur le bassin d’Arcachon, Maxicoffee est le
+                    numéro un en France de la distribution en ligne dans l’univers
+                    du café, machines et produits d’entretien.
+                  </p>
+                  <p>
+                    L'expérience utilisateur a été revue et corrigée dans une
+                    démarche de modernisation responsive tout en maintenant la
+                    dynamique commerciale existante.
+                  </p>
+                </div>
+                <footer>
+                  <a
+                    class="link"
+                    href="https://www.maxicoffee.com"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Site web client"
+                    >https://www.maxicoffee.com</a
+                  >
+                  <small>HTML5, css / Sass</small></footer>
+              </div>
+            </div>
+            <div class="card client_cactusprod">
+              <picture class="hero">
+                <source
+                  srcset="img/cactusprod-hero.webp"
+                  type="image/webp"
+                  alt="image cactusprod" />
+                <img
+                  src="img/cactusprod-hero.png"
+                  alt="image cactusprod"
+                  aria-label="Image du client"
+                  loading="lazy" />
+              </picture>
+              <div class="content">
+                <!-- <picture class="logo">
+                  <source
+                    srcset="img/cactusprod.webp"
+                    type="image/webp"
+                    alt="logo Cactus Prod" />
+                  <img
+                    src="img/cactusprod.png"
+                    alt="logo Cactus Prod"
+                    aria-label="Logo du client"
+                    loading="lazy" />
+                </picture> -->
+                <div class="text">
+                  <a
+                    href="https://producteurdecactus.com"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Nom du client">
+                    <h3>Cactus Prod</h3>
+                  </a>
+                  <p>
+                    Cactus Prod est une pépinière spécialisée dans la production
+                    de cactées du continent américain, de plantes grasses, et de
+                    succulentes originaires d’Afrique et de la péninsule arabique.
+                  </p>
+                  <p>
+                    Création d'un site vitrine et e-commerce pour la vente de
+                    plantes en ligne. Développement de modules spécifiques.
+                  </p>
+                  </div>
+                <footer>
+                  <a
+                    class="link"
+                    href="https://producteurdecactus.com"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Site web client"
+                    >https://producteurdecactus.com</a
+                  >
+                  <small>PHP / Wordpress / Woocommerce</small></footer>
+              </div>
+            </div>
+            <div class="card client_autres">
+              <div class="content logos">
+                <picture class="logo">
+                  <source
+                    srcset="img/cdiscount.webp"
+                    type="image/webp"
+                    alt="logo cdiscount" />
+                  <img
+                    src="img/cdiscount.svg"
+                    alt="logo cdiscount"
+                    aria-label="Logo du client"
+                    loading="lazy" />
+                </picture>
+                <picture class="logo">
+                  <source
+                    srcset="img/bmw.webp"
+                    type="image/webp"
+                    alt="logo bmw" />
+                  <img
+                    src="img/bmw.svg"
+                    alt="logo bmw"
+                    aria-label="Logo du client"
+                    loading="lazy" />
+                </picture>
+                <picture class="logo">
+                  <source
+                    srcset="img/kenzo.webp"
+                    type="image/webp"
+                    alt="logo Kenzo" />
+                  <img
+                    src="img/kenzo.svg"
+                    alt="logo Kenzo"
+                    aria-label="Logo du client"
+                    loading="lazy" />
+                </picture>
+                <picture class="logo">
+                  <source
+                    srcset="img/acticall.webp"
+                    type="image/webp"
+                    alt="logo Acticall" />
+                  <img
+                    src="img/acticall.svg"
+                    alt="logo Acticall"
+                    aria-label="Logo du client"
+                    loading="lazy" />
+                </picture>
+                <picture class="logo">
+                  <source
+                    srcset="img/plp.webp"
+                    type="image/webp"
+                    alt="logo PLP" />
+                  <img
+                    src="img/plp.png"
+                    alt="logo PLP"
+                    aria-label="Logo du client"
+                    loading="lazy" />
+                </picture>
+                <picture class="logo">
+                  <source
+                    srcset="img/pointephemere.webp"
+                    type="image/webp"
+                    alt="logo pointephemere" />
+                  <img
+                    src="img/pointephemere.svg"
+                    alt="logo pointephemere"
+                    aria-label="Logo du client"
+                    loading="lazy" />
+                </picture>
+              </div>
+            </div>
+            <div class="more">
+              <div class="text">
+                <a href="#section3" rel="noopener" aria-label="section contact">
+                  <h3>...</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+            href="#section3"
+            class="pixel"
+            aria-label="pixel ancre vers la section hello"
+            >&nbsp;</a
+          >
+        </div>
+        <a
+            href="#section3"
+            class="line"
+            aria-label="ligne ancre vers la section hello"
+            >&nbsp;</a
+          >
+      </section>
+      <section class="section contact" id="section3">
+        <div class="container">
+          <div class="content">
+            <div class="animated fadeIn delay-1s">
+              <div data-tilt class="card">
+                <div class="view">
+                  <strong>HERVE Mathieu</strong>
+                  <address>
+                    <a href="mailto:contact@mh1.fr" aria-label="email"
+                      >contact@mh1.fr</a
+                    >
+                    – <a href="tel:0663955576">06 63 95 55 76</a><br />
+                    <a
+                      href="https://www.google.com/maps/search/?api=1&query=mhun&query_place_id=ChIJKWHkxM4nVQ0RhR2Ih6gTTXU"
+                      target="_blank"
+                      rel="noopener"
+                      ><em>16, Rue des Lys 24100 BERGERAC</em></a
+                    >
+                  </address>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+            href="#section0"
+            class="pixel"
+            aria-label="pixel ancre vers la section mhun"
+            >&nbsp;</a
+          >
+          <a
+            href="#section0"
+            class="line"
+            aria-label="ligne ancre vers la section mhun"
+            >&nbsp;</a
+          >
+      </section>
+      <div class="button-container">
+        <a href="mailto:contact@mh1.fr" aria-label="email" class="button">hello</a>
+      </div>
+    </main>
+
+    <footer id="footer">&copy;2024</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+    </script>
+    <script src="js/tilt.jquery-min.js"></script>
+    <script src="js/plugins.js"></script>
+  </body>
 </html>

@@ -1,0 +1,39 @@
+/* TEAM */
+
+                            
+Mon nom: HERVE Mathieu 
+
+                            
+Site: contact[at]mh1.fr.
+
+                            
+Twitter: @MH_UN
+
+
+Facebook: mh1tieums
+
+                            
+Location: Bergerac, FRANCE
+                        
+
+                            
+/* SITE */
+
+                            
+Last update:  18/05/2024 
+
+
+Langue principale: Francais
+
+
+DOCTYPE: HTML5  
+
+                            
+Standards: HTML5, CSS
+
+                            
+Components: Modernizr, jQuery, tilt.jquery.js
+
+                            
+Software: VS Code, Filezilla.
+   
